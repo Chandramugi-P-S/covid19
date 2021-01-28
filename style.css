@@ -1,0 +1,37 @@
+body{
+    padding: 25px;
+    font: 1em;
+    background: #e0ffff;
+}
+*{
+    margin: 0;
+padding: 0;
+}
+header{
+    background: white;
+    text-align: center;
+    padding: 50px;
+    box-shadow:0px 3px 6px lightgreen ;
+}
+#CALM,#MASK,#EAT{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 5vw;
+}
+#WASH,#STAY{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+    padding: 5vw;
+}
+h2{
+    font-size: 24px;
+    font-weight: 700;
+    padding:15px ;
+}
+p,h2{
+    padding: 32px;
+}
